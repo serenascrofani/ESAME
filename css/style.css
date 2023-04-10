@@ -1,0 +1,333 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+ main,footer {
+max-width: 800px 500px;
+margin: 10px;
+
+}
+
+
+
+header {
+    background-color: #336720;
+    padding: 10px 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+}
+
+header {
+    gap: 10px;
+}
+
+main section.hero h2 {
+    color: #336720;
+    margin: 0;
+    padding: 40px 0px; 
+}
+
+ header, nav {
+    color: rgb(255, 255, 255)
+}
+
+header, p.nomesito {
+    color: white;
+    text-align: left;
+}
+
+main section div.card{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 100px;
+}
+
+main section div.card2 {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 100px;
+}
+
+main section div.card3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    }
+
+
+
+
+    
+
+main section h2.titolo {
+font-size: 50px;
+}
+
+main section h2.titolo2 {
+font-size: 50px;
+}
+
+ main section div img {
+    max-width: 700px;
+    
+}
+
+main section div.card img {
+    margin:auto
+}
+
+ main section div.card p.colazioneindiana{
+    width: 383px;
+    height: 160px;
+    font-size: 20px;
+    color: white;
+    background-color: #336720; 
+    margin-top: 0%;
+    padding: 10px;
+ }
+ 
+ main section div.card2 p.colazioneislanda{
+    width: 383px;
+    height: 140px;
+    font-size: 20px;
+    color: white;
+    background-color: #336720; 
+    margin-top: 0%;
+    padding: 10px;
+ }
+
+ main section div.card3 p.colazionecoreadelsud{
+    width: 383px;
+    height: 160px;
+    font-size: 20px;
+    color: white;
+    background-color: #336720; 
+    margin-top: 0%;
+    padding: 10px;
+ }
+
+ footer H2.però{
+    font-size: 40px;
+    color: #336720;
+ }
+
+ footer H2.perchè{
+    font-size: 40px;
+    color: #336720;
+    width: 700px;
+ }
+
+ footer p.ciao{
+    font-size: 20px;
+    color: white;
+    background-color: #336720; 
+    margin-top: 0%;
+    padding: 10px;
+ }
+
+ footer p.ciao2{
+    font-size: 20px;
+    color: white;
+    background-color: #336720; 
+    margin-top: 0%;
+    padding: 10px;
+    
+ }
+    
+main section.hero{
+    text-align: center;
+}
+
+ body main footer{
+
+  left: 50%;
+ 
+ }
+
+section h2.india{
+    writing-mode: vertical-lr;
+    font-size: 70px;
+   height: 500px;
+   color:#336720
+ 
+
+
+ }
+
+
+
+section h2.testocorea1{
+    writing-mode: vertical-lr;
+    font-size: 70px;
+    
+  color:#336720
+
+ }
+ section h2.testocorea2{
+    writing-mode: vertical-lr;
+    font-size: 70px;
+    
+  color:#336720
+
+ }
+
+section h2.islandatesto{
+    writing-mode: vertical-lr;
+    font-size: 70px;
+    transform: rotate(180deg);
+   
+  color:#336720
+
+ 
+ }
+
+header nav ul{
+    margin: auto;
+    padding: 0%;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    color: white;
+}
+
+
+
+body header div.sito{
+    margin: 0%;
+    float: right;
+ position: relative;
+ right: 910px;
+    font-size: 15px;
+  
+}
+
+head header body footer{
+    max-width: 1920px;
+}
+
+
+
+img{
+    position: relative;
+    float: center;
+    
+}
+
+section p.colazioneindiana{
+
+position: relative;
+float: right;
+right: 310px;
+top: 190px;
+
+
+}
+
+main section div.card img{
+    position: relative;
+    float: left;
+    left: 348px;
+    
+}
+
+main section div.card3 img{
+    position: relative;
+    float: right;
+    right: 157px;
+}
+
+main section img{
+    padding: 10px;
+}
+
+main section h2.india{
+    position: relative;
+    float: right;
+    right: 330px;
+    top: 120px;
+}
+
+main section img{
+    opacity: 0.50;
+}
+
+main section div.card2 img{
+    position: relative;
+    float: left;
+    left: 49px;
+}
+
+main section  p.colazioneislanda{
+    position: relative;
+    float: right;
+    right: 600px;
+    top: 180px;
+}
+
+main section h2.islandatesto{
+    position: relative;
+    float: left;
+    left: 220px;
+    bottom: 70px;
+}
+
+main section div.card3{
+    position: relative;
+    float: left;
+    left: 503px;
+}
+
+
+main section div.card3 p.colazionecoreadelsud{
+   position: relative;
+   float: right;
+   right: 810px;
+   top: 175px;
+}
+
+main section div.card3 h2.testocorea1{
+    position: relative;
+    float: right;
+    right: 900px;
+    
+}
+footer{
+    margin: 50px
+
+}
+
+footer img{
+    position: relative;
+    float: left;
+    left: 800px;
+}
+
+main section{
+    padding: 40px;
+}
+
+main div.card div.card2 div.card3{
+    padding: 30px;
+}
+
+img{
+    border: #336720;
+}
+
+main section div.card3 h2.testocorea1{
+    position: relative;
+    float: right;
+    right: 730px;
+   top: 17px;
+}
+
+main section div.card3 h2.testocorea2{
+    position: relative;
+    float: left;
+    bottom: 260px;
+    left: 490px;
+}
